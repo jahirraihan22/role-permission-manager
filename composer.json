@@ -1,0 +1,19 @@
+{
+    "name": "jahir/permission",
+    "description": "This will manage route level role permission",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jahir Raihan",
+            "email": "jahirraihanmsd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jahir\\Permission\\": "src/"
+        }
+    }
+}
