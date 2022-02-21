@@ -15,5 +15,12 @@
         "psr-4": {
             "Jahir\\Permission\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jahir\\Permission\\PermissionServiceProvider"
+            ]
+        }
     }
 }
